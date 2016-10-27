@@ -2,7 +2,8 @@
 
 ### Part1 准备训练集
 
-	用Mnist数据集做训练集得到的准确率较低，因此直接自制一个数据集，使用word中的各种字体截图得到图片，然后需要进行数据处理和转换，最后加上标签。 
+	用Mnist数据集做训练集得到的准确率较低，因此直接自制一个数据集：
+	使用word中的各种字体截图得到图片，然后需要进行数据处理和转换，最后加上标签。 
 
 *  [dataset文件夹](https://github.com/JU-Chang/telnum-Recognizer/tree/master/dataset)：准备训练数据的数据和代码
 	* [digit_segment.m](https://github.com/JU-Chang/telnum-Recognizer/blob/master/dataset/digit_segment.m)：对训练用的图片进行分割等预处理
